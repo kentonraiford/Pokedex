@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD525F7A1FB93CDD00F7BAE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD525F791FB93CDD00F7BAE9 /* GoogleService-Info.plist */; };
+		CD525F7C1FBA0C1F00F7BAE9 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = CD525F7B1FBA0C1000F7BAE9 /* pokemon.csv */; };
 		CD887AAD1F959BF5005963E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD887AAC1F959BF5005963E6 /* AppDelegate.swift */; };
 		CD887AAF1F959BF5005963E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD887AAE1F959BF5005963E6 /* ViewController.swift */; };
 		CD887AB21F959BF5005963E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD887AB01F959BF5005963E6 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD525F791FB93CDD00F7BAE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD525F7B1FBA0C1000F7BAE9 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		CD887AA91F959BF5005963E6 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD887AAC1F959BF5005963E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD887AAE1F959BF5005963E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 				CD887AAE1F959BF5005963E6 /* ViewController.swift */,
 				CD887AB01F959BF5005963E6 /* Main.storyboard */,
 				CD887AB31F959BF5005963E6 /* Assets.xcassets */,
+				CD525F7B1FBA0C1000F7BAE9 /* pokemon.csv */,
 				CD887AB51F959BF5005963E6 /* LaunchScreen.storyboard */,
+				CD525F791FB93CDD00F7BAE9 /* GoogleService-Info.plist */,
 				CD887AB81F959BF5005963E6 /* Info.plist */,
 			);
 			path = Pokedex;
@@ -124,8 +130,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD887AB71F959BF5005963E6 /* LaunchScreen.storyboard in Resources */,
+				CD525F7A1FB93CDD00F7BAE9 /* GoogleService-Info.plist in Resources */,
 				CD887AB41F959BF5005963E6 /* Assets.xcassets in Resources */,
 				CD887AB21F959BF5005963E6 /* Main.storyboard in Resources */,
+				CD525F7C1FBA0C1F00F7BAE9 /* pokemon.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
