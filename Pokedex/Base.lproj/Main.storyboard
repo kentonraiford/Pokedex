@@ -12,6 +12,9 @@
         <array key="AvenirNext.ttc">
             <string>AvenirNext-Regular</string>
         </array>
+        <array key="pokemonFont.ttf">
+            <string>PokemonSolidNormal</string>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -24,9 +27,36 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4z0-iF-vfJ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSn-ph-emK">
+                                        <rect key="frame" x="107" y="20" width="160" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="Pjw-fr-5uM"/>
+                                            <constraint firstAttribute="width" constant="160" id="Vto-Qh-Wsc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="26"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I2-QL-KHS">
+                                        <rect key="frame" x="337" y="27" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="IEZ-h5-OUS"/>
+                                            <constraint firstAttribute="width" constant="30" id="J16-16-saT"/>
+                                        </constraints>
+                                        <state key="normal" image="music.png"/>
+                                        <connections>
+                                            <action selector="musicBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yha-12-MGv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.68235294120000001" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="QSn-ph-emK" secondAttribute="bottom" constant="8" id="BVa-iJ-rkB"/>
                                     <constraint firstAttribute="height" constant="65" id="IzX-WI-Q0i"/>
+                                    <constraint firstAttribute="trailing" secondItem="0I2-QL-KHS" secondAttribute="trailing" constant="8" id="Mfx-21-rJQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="0I2-QL-KHS" secondAttribute="bottom" constant="8" id="Rgb-hn-r28"/>
+                                    <constraint firstItem="QSn-ph-emK" firstAttribute="centerX" secondItem="4z0-iF-vfJ" secondAttribute="centerX" id="mSV-88-2si"/>
                                 </constraints>
                             </view>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="fNf-xI-khc">
@@ -121,5 +151,6 @@
     <resources>
         <image name="4" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="music.png" width="100" height="100"/>
     </resources>
 </document>
