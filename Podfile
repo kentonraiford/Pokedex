@@ -8,5 +8,7 @@ target 'Pokedex' do
   # Pods for Pokedex
 
 	pod 'Alamofire', '~> 4.5'
+	pod 'Firebase'
+	pod 'Firebase/Core'     
 	
 end
